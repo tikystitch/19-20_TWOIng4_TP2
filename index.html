@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 		<title>Rdio - Luke Chesser</title>
 
 		<link rel="stylesheet" href="css/reset.css"/>
@@ -36,9 +37,19 @@
 						</div>
 						
 						<div class="col">
-							<div class="user">
-						    	<a href="#">Luke Chesser</a>
+							<div class="use dropdown">
+								<div class="user">
+						    		<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Luke Chesser</a>
+
+						    		<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    									<a class=" dropdown-item dropdown-toggle-split" href="#"> <img src="img/icon/edit.png"> Edit my profile</a>
+    									<div class="dropdown-divider"></div>
+    									
+    									<a class=" dropdown-item" href="#">  <img src="img/icon/off.png">  Logout</a>
+  									</div>
+								</div>
 							</div>
+							
 						</div>
 						
 					</div>
@@ -49,7 +60,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				
-				<aside class="col-2">
+				<aside class="col-2 d-none d-lg-block">
 					<h3>Browse</h3>
 					<nav class="browse">
 						<ul class="main">
@@ -68,7 +79,7 @@
 					</nav>
 				</aside>
 
-				<main class="col-10">  
+				<main class="col-12 col-sm-12 col-md-12 col-lg-10">  
 					<header class="container-fluid">
 						<div class="name-photo" class="row">
 							<aside>
@@ -110,8 +121,9 @@
 							</div>
 					</div>
 					
-					<section id="albums" class="row justify-content-between">
-						<article>
+					<section id="albums" class="row">	
+						
+						<article class="col-6 col-sm-4 col-md-3 col-lg-2">
 							<figure>
 								<img src="img/album/album_01.png" />
 								<figcaption>Native (Deluxe)</figcaption>
@@ -119,7 +131,8 @@
 							<div class="artist">OneRepublic</div>
 							<div class="count">17 songs</div>
 						</article>
-						<article>
+
+						<article class="col-6 col-sm-4 col-md-3 col-lg-2">
 							<figure>
 								<img src="img/album/album_02.png" />
 								<figcaption>Wax Wings</figcaption>
@@ -127,7 +140,8 @@
 							<div class="artist">Joshua Radin</div>
 							<div class="count">11 songs</div>
 						</article>
-						<article>
+
+						<article class="col-6 col-sm-4 col-md-3 col-lg-2">
 							<figure>
 								<img src="img/album/album_03.png" />
 								<figcaption>Modern Vampires of th...</figcaption>
@@ -135,7 +149,8 @@
 							<div class="artist">Vampire Weekend</div>
 							<div class="count">12 songs</div>
 						</article>
-						<article>
+
+						<article class="col-6 col-sm-4 col-md-3 col-lg-2">
 							<figure>
 								<img src="img/album/album_04.png" />
 								<figcaption>Night Visions</figcaption>
@@ -143,7 +158,8 @@
 							<div class="artist">Imagine Dragons</div>
 							<div class="count">11 songs</div>
 						</article>
-						<article>
+
+						<article class="col-6 col-sm-4 col-md-3 col-lg-2">
 							<figure>
 								<img src="img/album/album_05.png" />
 								<figcaption>Trouble Will Find Me</figcaption>
@@ -151,7 +167,8 @@
 							<div class="artist">The National</div>
 							<div class="count">13 songs <span class="explicit">EXPLICIT</span></div>
 						</article>
-						<article>
+
+						<article class="col-6 col-sm-4 col-md-3 col-lg-2">
 							<figure>
 								<img src="img/album/album_06.png" />
 								<figcaption>Native (Deluxe)</figcaption>
@@ -159,7 +176,8 @@
 							<div class="artist">OneRepublic</div>
 							<div class="count">17 songs</div>
 						</article>
-						<article>
+
+						<article class="col-6 col-sm-4 col-md-3 col-lg-2">
 							<figure>
 								<img src="img/album/album_07.png" />
 								<figcaption>Wax Wings</figcaption>
@@ -167,7 +185,8 @@
 							<div class="artist">Joshua Radin</div>
 							<div class="count">11 songs</div>
 						</article>
-						<article>
+
+						<article class="col-6 col-sm-4 col-md-3 col-lg-2">
 							<figure>
 								<img src="img/album/album_08.png" />
 								<figcaption>Modern Vampires of th...</figcaption>
@@ -175,7 +194,8 @@
 							<div class="artist">Vampire Weekend</div>
 							<div class="count">12 songs</div>
 						</article>
-						<article>
+
+						<article class="col-6 col-sm-4 col-md-3 col-lg-2">
 							<figure>
 								<img src="img/album/album_09.png" />
 								<figcaption>Night Visions</figcaption>
@@ -183,7 +203,8 @@
 							<div class="artist">Imagine Dragons</div>
 							<div class="count">11 songs <span class="explicit">EXPLICIT</span></div>
 						</article>
-						<article>
+
+						<article class="col-6 col-sm-4 col-md-3 col-lg-2">
 							<figure>
 								<img src="img/album/album_10.png" />
 								<figcaption>Trouble Will Find Me</figcaption>
@@ -191,10 +212,9 @@
 							<div class="artist">The National</div>
 							<div class="count">13 songs</div>
 						</article>
+
+					
 					</section>
-
-					</div>
-
 				</main>	
 
 			</div>
