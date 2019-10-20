@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
@@ -8,6 +9,12 @@
 * { 
     font-family: 'My Lucida', Console;
 }
+
+
+.row{
+    border: 1px solid #111;
+}
+
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
@@ -150,7 +157,7 @@ input.submit {
     display: none;
 }
 
-.station {
+.station { 
     font-size: 12px;
     color: #008fd5;
     border-radius: 5px;
