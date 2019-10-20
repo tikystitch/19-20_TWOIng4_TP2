@@ -238,40 +238,104 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 }
 
 /*Large screen */
-@media (min-width: 450px) and (max-width: 600px) {
+@media  {
 
     h2 {
         font-size: 0.5rem;   /**/
         font-weight: normal;
         color: #4b5c66;
     }
-
 }
+
 /*Large screen */
-@media (min-width: 600px) and (max-width: 1400px) {
+@media (max-width: 450px) {
 
-@font-face{
-        font-family: 'My Lucida';
-        src: url('../font/LucidaGrande.ttf');
-        font-style: medium; 
-        font-weight: bold;
-    }
-
-/*
     header .user a  {
         font-size: 0.5rem; 
     }
-    h3 {
-        font-size: 3rem; 
+    body h3 {
+        font-size: 0.5rem; 
     }
     nav ul li a {
-        font-size:2rem; 
+        font-size: 0.5rem; 
     }
-    h1 {
-        font-size:2rem; 
+    body h1 {
+        font-size: 1rem; 
     }
     .name p {
-        font-size: 2rem; 
+        font-size: 1rem; 
+    }
+    .stats-links{
+        font-size: 0.6rem; 
+    }
+    .stats-links a {
+        font-size: 0.6rem; 
+    }   
+    body h2 {
+        font-size: 1.30rem; 
+    }
+    input.search{
+        font-size: 0.75rem; 
+    }
+    #albums article{
+        font-size: 0.75rem; 
+    }
+
+}
+
+/*Large screen */
+@media (min-width: 450px) and (max-width: 600px) {
+
+    header .user a  {
+        font-size: 0.75rem; 
+    }
+    body h3 {
+        font-size: 0.75rem; 
+    }
+    nav ul li a {
+        font-size: 0.75rem; 
+    }
+    body h1 {
+        font-size: 0.75rem; 
+    }
+    .name p {
+        font-size: 0.75rem; 
+    }
+    .stats-links{
+        font-size: 0.75rem; 
+    }
+    .stats-links a {
+        font-size: 0.75rem; 
+    }   
+    body h2 {
+        font-size: 1.5rem; 
+    }
+    input.search{
+        font-size: 0.75rem; 
+    }
+    #albums article{
+        font-size: 1rem; 
+    }
+
+}
+
+/*Large screen */
+@media (min-width: 600px) and (max-width: 1400px) {
+
+    header .user a  {
+        font-size: 1rem; 
+    }
+    body h3 {
+        font-size: 1rem; 
+    }
+    nav ul li a {
+        font-size: 1rem; 
+    }
+    body h1 {
+        font-size: 1rem; 
+    }
+    .name p {
+        font-size: 1rem; 
     }
     .stats-links{
         font-size: 1rem; 
@@ -279,44 +343,36 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
     .stats-links a {
         font-size: 1rem; 
     }   
-    h2 {
-        font-size: 3rem; 
+    body h2 {
+        font-size: 1.5rem; 
     }
     input.search{
-        font-size: 2rem; 
+        font-size: 1rem; 
     }
     #albums article{
-        font-size: 0.5rem; 
+        font-size: 1rem; 
     }
-*/
+
 }
 
 
 /*Large screen */
 @media (min-width: 1400px) {
 
-@font-face {
-    font-family: 'My Lucida';
-    src: url('../font/LucidaGrande.ttf');
-    font-style: larger; 
-    font-weight: bold;
-    }
-
-/*
     header .user a  {
-        font-size: 1.3rem; 
+        font-size: 1.5rem; 
     }
-    h3 {
-        font-size: 9rem; 
+    body h3 {
+        font-size: 1.5rem; 
     }
     nav ul li a {
-        font-size:5rem; 
+        font-size: 1.5rem; 
     }
-    h1 {
-        font-size: 6rem; 
+    body h1 {
+        font-size: 1.5rem; 
     }
     .name p {
-        font-size: 2rem; 
+        font-size: 1.5rem; 
     }
     .stats-links{
         font-size: 1.5rem; 
@@ -324,14 +380,13 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
     .stats-links a {
         font-size: 1.5rem; 
     }   
-    h2 {
-        font-size: 5rem; 
+    body h2 {
+        font-size: 1.5rem; 
     }
     input.search{
-        font-size: 3rem; 
+        font-size: 1.5rem; 
     }
     #albums article{
-        font-size: 1rem; 
+        font-size: 1.5rem; 
     }
-*/
 }
