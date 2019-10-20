@@ -1,8 +1,123 @@
 
 
 
+/* 531x626 enever la barre search */
+@media(max-width:531px){
+    .search{
+        display: none; 
+    } 
+
+}
+
+/* Small devices (landscape phones, less than 768px) source Bootstrap/Overview */
+@media (max-width: 767.98px) {
+    .name-photo a img{
+        display: none; 
+    }
+}
+
+/*Large screen */
+@media (min-width: 400px) and (max-width: 600px) {
+
+@font-face{
+        font-family: 'My Lucida';
+        src: url('../font/LucidaGrande.ttf');
+        font-style: smaller; 
+        font-weight: bold;
+    }
+}
+/*Large screen */
+@media (min-width: 600px) and (max-width: 1400px) {
+
+@font-face{
+        font-family: 'My Lucida';
+        src: url('../font/LucidaGrande.ttf');
+        font-style: smaller; 
+        font-weight: bold;
+    }
+
+/*
+    header .user a  {
+        font-size: 0.5rem; 
+    }
+    h3 {
+        font-size: 3rem; 
+    }
+    nav ul li a {
+        font-size:2rem; 
+    }
+    h1 {
+        font-size:2rem; 
+    }
+    .name p {
+        font-size: 2rem; 
+    }
+    .stats-links{
+        font-size: 1rem; 
+    }
+    .stats-links a {
+        font-size: 1rem; 
+    }   
+    h2 {
+        font-size: 3rem; 
+    }
+    input.search{
+        font-size: 2rem; 
+    }
+    #albums article{
+        font-size: 0.5rem; 
+    }
+*/
+}
 
 
+/*Large screen */
+@media (min-width: 0px) and (max-width: 1400px) {
+
+@font-face {
+    font-family: 'My Lucida';
+    src: url('../font/LucidaGrande.ttf');
+    font-style: smaller; 
+    font-weight: bold;
+    }
+
+    h2 {
+        font-size: x-small; 
+    }
+
+/*
+    header .user a  {
+        font-size: 1.3rem; 
+    }
+    h3 {
+        font-size: 9rem; 
+    }
+    nav ul li a {
+        font-size:5rem; 
+    }
+    h1 {
+        font-size: 6rem; 
+    }
+    .name p {
+        font-size: 2rem; 
+    }
+    .stats-links{
+        font-size: 1.5rem; 
+    }
+    .stats-links a {
+        font-size: 1.5rem; 
+    }   
+    h2 {
+        font-size: 5rem; 
+    }
+    input.search{
+        font-size: 3rem; 
+    }
+    #albums article{
+        font-size: 1rem; 
+    }
+*/
+}
 
 @font-face {
     font-family: 'My Lucida';
@@ -49,7 +164,7 @@ header .user {
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 1rem; /**/
     color: #89949b;
     padding-top: 5px;
 }
@@ -66,7 +181,7 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11rem;       /**/
+    font-size: 1em;       /**/
     font-weight: normal;
     margin-bottom: 10px;
 }
@@ -149,7 +264,7 @@ input.search {
     box-shadow: none;
     height: 28px;
     width: 100%;
-    font-size: 1rem;   /**/
+    font-size: 1.5rem;   /**/
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
     margin: 0;
